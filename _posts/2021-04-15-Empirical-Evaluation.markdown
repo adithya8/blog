@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Empirical Evaluation of Pre-trained Transformers for Human-Level NLP: The Role of Sample Size and Dimensionality"
-date:   2021-05-25 15:14:45 -0400
+date:   2021-04-15 15:14:45 -0400
 categories: paper
 script: /assets/ConEmbDR/empirical-eval.js
 ---
