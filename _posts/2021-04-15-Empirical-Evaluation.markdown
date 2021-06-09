@@ -47,7 +47,7 @@ Download<sup><a href="#Footnotes">2</a></sup> pre-trained reduction model as:
 **Use the form above to download our recommended RoBERTa dimensionality reduction given your (a) number of training samples, and (b) task domain.**
 
 ### How to improve the performance of contextual embeddings in low sample settings?
-It is very simple, yet effective. Training PCA to reduce the dimensions of the transformer on *unlabeled* domain data improves the performance over pre-trained representations (or fine-tuning to the task). Results from a thorough investigation using bootstrapped sampling, demonstrate using such a transformation typically produces accuracies in downstream tasks as good or significantly better than using the second-to-last layer or fine-tuning the transformer at the message-level. The code to do the dimensionality reduction (transformation matrix or [DLATK](github.com/dlatk/dlatk) picklefile) are available by selecting your training data size and task domain above.
+It is very simple, yet effective. Training PCA to reduce the dimensions of the transformer on *unlabeled* domain data improves the performance over pre-trained representations (or fine-tuning to the task). Results from a thorough investigation using bootstrapped sampling, demonstrate using such a transformation typically produces accuracies in downstream tasks as good or significantly better than using the second-to-last layer or fine-tuning the transformer at the message-level. The code to do the dimensionality reduction (transformation matrix or [DLATK](https://github.com/dlatk/dlatk) picklefile) are available by selecting your training data size and task domain above.
 
 #### Key Links
  * [Paper from NACCL-2021](https://aclanthology.org/2021.naacl-main.357/)
